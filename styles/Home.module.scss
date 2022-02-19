@@ -1,0 +1,64 @@
+@import 'mixins';
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&display=swap');
+
+$font-stack: 'Manrope', sans-serif;
+
+.lite {
+	font-weight: 200;
+}
+
+.headerStyles {
+	text-align: right;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	top: 0;
+	padding: 1%;
+
+	figure {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.heroStyles {
+	width: 50vw;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+	h1 {
+		font-size: 3.5rem;
+		font-weight: 900;
+		padding: 0;
+		margin: 0;
+	}
+
+	img {
+		border-radius: 50%;
+	}
+
+	div {
+		text-align: center;
+		display: flex;
+		width: 40vw;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+}
+
+.footerStyles {
+	position: absolute;
+	bottom: 0;
+	width: 100vw;
+	text-align: center;
+	p {
+		padding: 0;
+		margin: 0;
+	}
+}
